@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.2.18.0" projectFile="C:\Users\smmrv\Desktop\Financial_Tracker_Documentation.shfbproj" started="6/28/2024 11:24:49 PM">
+<buildStep step="Initializing">
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    C:\Users\smmrv\Desktop
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;Default2022&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022&#39;
+Loading and initializing plug-ins...
+Website Table of Contents Generator Version 2024.2.18.0
+Copyright &#169; 2006-2024, Eric Woodruff, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\smmrv\Desktop\Course Work\Financial Tracker App\Financial Tracker App\bin\Debug\BeWealthy - Finances Tracker.exe
+    Found assembly &#39;C:\Users\smmrv\Desktop\Course Work\Financial Tracker App\Financial Tracker App\bin\Debug\BeWealthy - Finances Tracker.exe&#39;
+Source: C:\Users\smmrv\Desktop\Course Work\Financial Tracker App\Financial Tracker App\bin\Debug\Course_Work_Documentation.xml
+
+Copying XML comments files
+    C:\Users\smmrv\Desktop\Course Work\Financial Tracker App\Financial Tracker App\bin\Debug\Course_Work_Documentation.xml -&gt; C:\Users\smmrv\Desktop\Help\Working\Course_Work_Documentation.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (ru-RU, Russian (Russia))...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0480
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-eddd20a5-d49d-461e-9f2e-1bf346a486a8.proj]
+Build started 6/28/2024 11:24:51 PM.
+
+Project &quot;C:\Users\smmrv\Desktop\Help\Working\GenerateRefInfo-eddd20a5-d49d-461e-9f2e-1bf346a486a8.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  Microsoft.Build (v17.9.8+b34f75857bacf5ecd5531f7ff763a5739d3ae435)
+  &#169; Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 1 namespaces, 13 types, and 289 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+Done Building Project &quot;C:\Users\smmrv\Desktop\Help\Working\GenerateRefInfo-eddd20a5-d49d-461e-9f2e-1bf346a486a8.proj&quot; (default targets).
+    Last step completed in 00:00:02.1239
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:00.0471
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Last step completed in 00:00:00.0467
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:00.0323
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0146
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.0315
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    Last step completed in 00:00:00.3592
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0156
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\smmrv\Desktop\Help\Working\BuildAssembler.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00.0313
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+<plugIn name="Website Table of Contents Generator" behavior="Before" priority="1000">
+Loading TOC info and adding unique IDs to parent nodes
+</plugIn>Loading configuration...
+Processing topics...
+SHFB: Warning BE0066: SharedContentComponent: [Methods.T:Financial.Tracker.AuthForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Fields.T:Financial.Tracker.AuthForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.AuthForm.#ctor] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.AuthForm.appLabel] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.AuthForm.buttonAuth] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.AuthForm.ButtonAuth_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.AuthForm.ButtonAuthLogic] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.AuthForm.checkboxShowAuthPassword] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.AuthForm.CheckboxShowAuthPassword_CheckedChanged(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.AuthForm.components] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.AuthForm.CreateAccountLabel_MouseHover(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.AuthForm.CreateAccountLabel_MouseLeave(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.AuthForm.Dispose(System.Boolean)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.AuthForm.InitializeComponent] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.AuthForm.labelAuth] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.AuthForm.labelCloseApp] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.AuthForm.LabelCloseApp_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.AuthForm.labelCreateAccount] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.AuthForm.LabelCreateAccount_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.AuthForm.labelLogo] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.AuthForm.labelLogoPadding] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.AuthForm.labelPass] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.AuthForm.labelUser] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.AuthForm.panelNavigation] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.AuthForm.pictureboxLogo] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.AuthForm.textboxAuthUser] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.AuthForm.textboxPassword] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.AuthForm.TextboxPassword_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.AuthForm.username] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Methods.T:Financial.Tracker.CategoryData] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Properties.T:Financial.Tracker.CategoryData] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.CategoryData.#ctor] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.CategoryData.Category] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.CategoryData.CategoryExists(System.Windows.Forms.TextBox)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.CategoryData.CategoryListData] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.CategoryData.Date] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.CategoryData.ID] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.CategoryData.Status] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.CategoryData.Type] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Methods.T:Financial.Tracker.CategoryForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Fields.T:Financial.Tracker.CategoryForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.CategoryForm.#ctor] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.CategoryForm.category_buttonAdd] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.CategoryForm.Category_buttonAdd_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.CategoryForm.category_buttonClear] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.CategoryForm.Category_buttonClear_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.CategoryForm.category_buttonDelete] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.CategoryForm.Category_buttonDelete_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.CategoryForm.category_buttonUpdate] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.CategoryForm.Category_buttonUpdate_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.CategoryForm.category_comboBoxStatus] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.CategoryForm.category_comboBoxType] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.CategoryForm.category_textBoxCategory] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.CategoryForm.ClearFields] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.CategoryForm.components] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.CategoryForm.dataGridViewCategory] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.CategoryForm.DataGridViewCategory_CellClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.CategoryForm.dataGridViewCategory_CellFormatting(System.Object,System.Windows.Forms.DataGridViewCellFormattingEventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.CategoryForm.DisplayCategoryList] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.CategoryForm.Dispose(System.Boolean)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.CategoryForm.getID] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.CategoryForm.InitializeComponent] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.CategoryForm.label1] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.CategoryForm.label2] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.CategoryForm.label3] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.CategoryForm.label4] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.CategoryForm.panel1] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.CategoryForm.panel2] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.CategoryForm.RefreshData] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.CategoryForm.ValidateCategoryInputs] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Methods.T:Financial.Tracker.DashboardForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Fields.T:Financial.Tracker.DashboardForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.DashboardForm.#ctor] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.components] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.dailyExpensesQuery] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.dailyIncomeQuery] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.dash_labelExpensesToday] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.dash_labelExpensesYesterday] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.dash_labelIncomeToday] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.dash_labelIncomeYesterday] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.dash_labelMonthlyExpenses] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.dash_labelMonthlyIncome] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.dash_labelTotalExpenses] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.dash_labelTotalIncome] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.dash_labelYearlyExpenses] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.dash_labelYearlyIncome] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.DashboardForm.Dispose(System.Boolean)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.DashboardForm.InitializeComponent] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.label1] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.label11] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.label13] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.label15] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.label16] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.label18] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.label19] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.label2] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.label22] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.label5] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.label7] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.label9] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.monthlyExpensesQuery] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.monthlyIncomeQuery] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.panel1] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.panel10] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.panel11] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.panel12] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.panel13] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.panel14] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.panel15] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.panel2] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.panel3] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.panel4] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.panel5] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.panel6] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.panel7] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.panel8] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.panel9] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.pictureBox1] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.pictureBox10] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.pictureBox2] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.pictureBox3] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.pictureBox4] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.pictureBox5] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.pictureBox6] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.pictureBox7] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.pictureBox8] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.pictureBox9] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.DashboardForm.RefreshData] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.DashboardForm.ShowMonthUniversal(System.String,System.Windows.Forms.Label)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.DashboardForm.ShowTodayUniversal(System.String,System.String,System.Windows.Forms.Label)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.DashboardForm.ShowTotalUniversal(System.String,System.Windows.Forms.Label)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.DashboardForm.ShowYearUniversal(System.String,System.Windows.Forms.Label)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.DashboardForm.ShowYesterdayUniversal(System.String,System.Windows.Forms.Label)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.totalExpensesQuery] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.totalIncomeQuery] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.yearlyExpensesQuery] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.yearlyIncomeQuery] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.yesterdayExpensesQuery] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DashboardForm.yesterdayIncomeQuery] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Methods.T:Financial.Tracker.DBConnection] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Properties.T:Financial.Tracker.DBConnection] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Fields.T:Financial.Tracker.DBConnection] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.DBConnection.#ctor] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.DBConnection.#cctor] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.DBConnection.CheckConnection] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.DBConnection.CloseConnection] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.DBConnection.sqlConnection] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.DBConnection.SqlConnection] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Methods.T:Financial.Tracker.ExpensesData] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Properties.T:Financial.Tracker.ExpensesData] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.ExpensesData.#ctor] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.ExpensesData.Amount] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.ExpensesData.CategoryId] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.ExpensesData.CategoryName] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.ExpensesData.Description] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.ExpensesData.ExpensesDate] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.ExpensesData.ExpensesListData] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.ExpensesData.GetCategoryIdByName(System.String)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.ExpensesData.Id] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.ExpensesData.Item] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.ExpensesData.ItemExists(System.Windows.Forms.TextBox)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Methods.T:Financial.Tracker.ExpensesForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Fields.T:Financial.Tracker.ExpensesForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.ExpensesForm.#ctor] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.ExpensesForm.ClearFields] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.components] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.dataGridViewExpenses] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.ExpensesForm.DataGridViewExpenses_CellClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.ExpensesForm.DisplayExpensesCategories] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.ExpensesForm.DisplayExpensesData] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.ExpensesForm.Dispose(System.Boolean)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.expenses_buttonAdd] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.ExpensesForm.Expenses_buttonAdd_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.expenses_buttonClear] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.ExpensesForm.Expenses_buttonClear_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.expenses_buttonDelete] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.ExpensesForm.Expenses_buttonDelete_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.expenses_buttonUpdate] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.ExpensesForm.Expenses_buttonUpdate_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.expenses_comboBoxCategory] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.expenses_dateTimePicker] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.expenses_textBoxDescription] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.expenses_textBoxExpenses] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.expenses_textBoxItem] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.getID] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.ExpensesForm.InitializeComponent] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.label1] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.label2] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.label3] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.label4] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.label5] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.label6] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.panel1] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.ExpensesForm.panel2] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.ExpensesForm.RefreshData] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.ExpensesForm.ValidateInput] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Methods.T:Financial.Tracker.FeedBackForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Fields.T:Financial.Tracker.FeedBackForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.FeedBackForm.#ctor(System.String)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.FeedBackForm.components] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.FeedBackForm.Dispose(System.Boolean)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.FeedBackForm.FeedBackForm_Load(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.FeedBackForm.InitializeComponent] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.FeedBackForm.labelMessage] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.FeedBackForm.pictureBox2] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Methods.T:Financial.Tracker.IncomeData] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Properties.T:Financial.Tracker.IncomeData] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.IncomeData.#ctor] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.IncomeData.Amount] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.IncomeData.CategoryId] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.IncomeData.CategoryName] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.IncomeData.Description] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.IncomeData.GetCategoryIdByName(System.String)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.IncomeData.Id] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.IncomeData.IncomeDate] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.IncomeData.IncomeListData] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [P:Financial.Tracker.IncomeData.Item] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.IncomeData.ItemExists(System.Windows.Forms.TextBox)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Methods.T:Financial.Tracker.IncomeForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Fields.T:Financial.Tracker.IncomeForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.IncomeForm.#ctor] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.IncomeForm.ClearFields] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.components] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.dataGridViewIncome] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.IncomeForm.DataGridViewIncome_CellClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.IncomeForm.DisplayIncomeCategories] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.IncomeForm.DisplayIncomeData] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.IncomeForm.Dispose(System.Boolean)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.getID] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.income_buttonAdd] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.IncomeForm.Income_buttonAdd_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.income_buttonClear] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.IncomeForm.Income_buttonClear_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.income_buttonDelete] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.IncomeForm.Income_buttonDelete_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.income_buttonUpdate] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.IncomeForm.Income_buttonUpdate_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.income_comboBoxCategory] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.income_dateTimePicker] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.income_textBoxDescription] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.income_textBoxIncome] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.income_textBoxItem] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.IncomeForm.InitializeComponent] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.label1] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.label2] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.label3] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.label4] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.label5] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.label6] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.panel1] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.IncomeForm.panel2] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.IncomeForm.RefreshData] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.IncomeForm.ValidateInput] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Methods.T:Financial.Tracker.MainForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Fields.T:Financial.Tracker.MainForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.MainForm.#ctor] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.buttonAddCategory] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.MainForm.ButtonAddCategory_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.buttonDashboard] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.MainForm.ButtonDashboard_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.buttonExpenses] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.MainForm.ButtonExpenses_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.buttonIncome] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.MainForm.ButtonIncome_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.buttonLogout] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.MainForm.ButtonLogout_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.categoryForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.components] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.dashboardForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.MainForm.DisplayUsername] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.MainForm.Dispose(System.Boolean)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.expensesForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.incomeForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.MainForm.InitializeComponent] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.MainForm.InitializeDash] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.label1] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.labelAbout] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.labelCloseApp] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.MainForm.LabelCloseApp_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.labelDisplayUsername] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.labelLogo] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.labelLogoPadding] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.panel1] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.panel2] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.pictureBox1] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.MainForm.pictureboxLogo] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Methods.T:Financial.Tracker.Program] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.Program.Main] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Methods.T:Financial.Tracker.RegisterForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Fields.T:Financial.Tracker.RegisterForm] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.RegisterForm.#ctor] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.RegisterForm.appLabel] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.RegisterForm.buttonBackToAuth] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.RegisterForm.ButtonBackToAuth_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.RegisterForm.buttonRegistration] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.RegisterForm.ButtonRegistration_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.RegisterForm.checkboxShowRegPassword] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.RegisterForm.CheckboxShowRegPassword_CheckedChanged(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.RegisterForm.components] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.RegisterForm.Dispose(System.Boolean)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.RegisterForm.InitializeComponent] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.RegisterForm.labelCloseApp] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.RegisterForm.LabelCloseApp_Click(System.Object,System.EventArgs)] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.RegisterForm.labelConfirmPassword] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.RegisterForm.labelLogo] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.RegisterForm.labelLogoPadding] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.RegisterForm.labelPass] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.RegisterForm.labelRegistration] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.RegisterForm.labelUser] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.RegisterForm.panelNavigation] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.RegisterForm.pictureboxLogo] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.RegisterForm.textboxConfirmPassword] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.RegisterForm.textboxRegisterUsername] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [F:Financial.Tracker.RegisterForm.textboxRegPassword] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [M:Financial.Tracker.RegisterForm.ValidateRegistrationInputs] Missing shared content item. Tag: &#39;include&#39;; Id:&#39;text_classLower&#39;.
+Processed 329 topic(s)
+315 warning(s)
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
+<plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
+Generating TOC fragment files
+</plugIn>    Last step completed in 00:00:15.2814
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\css\bulma.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css.map -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\css\bulma.css.map
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.min.css -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\css\bulma.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.css -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\css\font-awesome.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.min.css -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\css\font-awesome.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ja-JP.css -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\css\ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ko-KR.css -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\css\ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\presentationStyle.css -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\css\presentationStyle.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\vs.min.css -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\css\vs.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-CN.css -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\css\zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-TW.css -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\css\zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\icons\favicon.ico -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\clipboard.min.js -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\highlight.min.js -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\scripts\highlight.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\jquery-3.5.1.min.js -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\presentationStyle.js -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\scripts\presentationStyle.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.ttf -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\webfonts\fa-brands-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.woff2 -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\webfonts\fa-brands-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.ttf -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\webfonts\fa-regular-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.woff2 -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\webfonts\fa-regular-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.ttf -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\webfonts\fa-solid-900.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.woff2 -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\webfonts\fa-solid-900.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.ttf -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\webfonts\fa-v4compatibility.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.woff2 -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\webfonts\fa-v4compatibility.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\GeneralError.html -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\GeneralError.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\index.html -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\PageNotFound.html -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\PageNotFound.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\search.html -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.aspx -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Users\smmrv\Desktop\Help\Working\Output\Website\Web.Config
+    Last step completed in 00:00:00.0313
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:00.3438
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 449 files for the website content
+    Last step completed in 00:00:00.3125
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.0469
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 6/28/2024 11:25:09 PM.  Total time: 00:00:20.4690
+
+</buildStep>
+</shfbBuild>
