@@ -22,8 +22,8 @@
     <HtmlHelpName>Documentation</HtmlHelpName>
     <Language>ru-RU</Language>
     <DocumentationSources>
-      <DocumentationSource sourceFile="Course Work\Course Work (WinForms .NET Framework, C#, MS SQL)\Course Work (WinForms .NET Framework, C#, MS SQL)\bin\Debug\Course_Work__WinForms.NET_Framework__C___MS_SQL_.exe" />
-<DocumentationSource sourceFile="Course Work\Course Work (WinForms .NET Framework, C#, MS SQL)\Course Work (WinForms .NET Framework, C#, MS SQL)\bin\Debug\Course_Work_Documentation.xml" /></DocumentationSources>
+      <DocumentationSource sourceFile="Course Work\Financial Tracker App\Financial Tracker App\bin\Debug\BeWealthy - Finances Tracker.exe" />
+<DocumentationSource sourceFile="Course Work\Financial Tracker App\Financial Tracker App\bin\Debug\Course_Work_Documentation.xml" /></DocumentationSources>
     <MissingTags>AutoDocumentCtors, AutoDocumentDispose</MissingTags>
     <VisibleItems>Internals, Privates, PrivateFields, Protected, SealedProtected, ProtectedInternalAsProtected</VisibleItems>
     <HelpFileFormat>Website</HelpFileFormat>
